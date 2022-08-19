@@ -1,0 +1,27 @@
+{
+  "name": "eevee",
+  "version": "1.0.0",
+  "description": "monorepo管理多项目",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eevee-lib/eevee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eevee-lib/eevee/issues"
+  },
+  "homepage": "https://github.com/eevee-lib/eevee#readme",
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

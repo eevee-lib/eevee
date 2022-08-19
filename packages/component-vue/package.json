@@ -1,0 +1,14 @@
+{
+  "name": "@eevee/component-vue",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gitHead": "e91c8182b5c829b91bf911025fc1d3ddcbc137a1"
+}
