@@ -1,6 +1,6 @@
 {
   "name": "@eevee/component-vue",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -12,6 +12,6 @@
   "license": "ISC",
   "gitHead": "e91c8182b5c829b91bf911025fc1d3ddcbc137a1",
   "dependencies": {
-    "@eevee/hooks": "^1.0.0"
+    "@eevee/hooks": "^1.0.1-alpha.0"
   }
 }
