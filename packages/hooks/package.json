@@ -11,5 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "e91c8182b5c829b91bf911025fc1d3ddcbc137a1"
+  "gitHead": "8669a9f51ea5f5ea1c39bc96194ab87b94f7618b",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
