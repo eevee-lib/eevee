@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'classnames';
 import './button.css';
 
 interface ButtonProps {
@@ -38,7 +39,11 @@ export const Button = ({
   return (
     <button
       type="button"
-      className='bg-black'
+      className={cn(
+        "bg-primary dark:bg-cyan-200 text-red-300 px-2 w-[80px]h-8",
+        "after:content-['']",
+        "hover:bg-emerald-400 transition duration-150 first-letter:text-red-500"
+      )}
       style={{ backgroundColor }}
       {...props}
     >

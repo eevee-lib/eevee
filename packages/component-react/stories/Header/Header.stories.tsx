@@ -20,6 +20,16 @@ LoggedIn.args = {
     name: 'Jane Doe',
   },
 };
+// 自定义代码模板
+// LoggedIn.parameters = {
+//     docs: {
+//         source: {
+//             type: 'auto',
+//             code: `<Header />`,
+//             language: 'tsx'
+//         }
+//     }
+// }
 
 export const LoggedOut = Template.bind({});
 LoggedOut.args = {};
