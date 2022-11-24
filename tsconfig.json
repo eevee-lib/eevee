@@ -17,7 +17,7 @@
     "useDefineForClassFields": true,
     "jsx": "preserve",
     "baseUrl": "./",
-    "paths": {},
+    "paths": {}
   },
   "include": ["packages"],
   "exclude": ["node_modules"]

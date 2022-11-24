@@ -7,15 +7,10 @@
   "publishConfig": {
     "registry": "http://npm.liusixin.cn/"
   },
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "tests"
-      ]
+      "ignoreChanges": ["*.md", "tests"]
     }
   }
 }
